@@ -120,25 +120,25 @@
                 data-items-mobile="[479,1]">
                 <li>
                     <div class="hover-item mb30 post-slide">
-                        <img src="assets/images/Saucy-score/splash.png" class="img-responsive smoothie" alt="title"
+                        <img src="assets/images/Horror-host/splash.png" class="img-responsive smoothie" alt="title"
                             style="height: 300px;">
                     </div>
                 </li>
                 <li>
                     <div class="hover-item mb30 post-slide">
-                        <img src="assets/images/Saucy-score/sauces.png" class="img-responsive smoothie" alt="title"
+                        <img src="assets/images/Horror-host/movies.png" class="img-responsive smoothie" alt="title"
                             style="height: 300px;">>
                     </div>
                 </li>
                 <li>
                     <div class="hover-item mb30 post-slide">
-                        <img src="assets/images/Saucy-score/sauce.png" class="img-responsive smoothie" alt="title"
+                        <img src="assets/images/Horror-host/profile.png" class="img-responsive smoothie" alt="title"
                             style="height: 300px;">>
                     </div>
                 </li>
                 <li>
                     <div class="hover-item mb30 post-slide">
-                        <img src="assets/images/Saucy-score/form.png" class="img-responsive smoothie" alt="title"
+                        <img src="assets/images/Horror-host/movie.png" class="img-responsive smoothie" alt="title"
                             style="height: 300px;">>
                     </div>
                 </li>
@@ -150,35 +150,28 @@
                 <div class="container pad-sides-120">
                     <div class="row project-item wow">
                         <div class="col-sm-9">
-                            <p style="font-size: large;">A full-stack Single-Page-Application allowing users to discover
-                                and review different hot sauces</p>
+                            <p style="font-size: large;">A full stack web Application hosted on Heroku and constructed using Sequelize ORM, Express.js, Javascript, HTML/CSS, and Pug templated. This project features User Authentication/Authorization and three full CRUD features: Movies, Shelves, and Reviews</p>
                             <p>Some highlights of the project for me were that I:</p>
                             <ul>
                                 <li>
-                                    Harnessed React Portal to implement Modals throughout the site to enhance
-                                    application flow and improve the
-                                    responsiveness of the application UI.
+                                    Constructing a Pugjs template mix-in that calculated the average score based on all the reviews for a movie, and displays this score as a star rating underneath each movie to give the app a visual and intuitive movie ranking system
                                 </li>
                                 <li>
-                                    Integrated the jsSearch library to compose a search react component capable of
-                                    querying for hot sauce names and rendering dynamic search suggestions in real time
-                                    to improve the UI of the application.
+                                    Utilizing session cookies and Sequelize queries to conditionally display the review form so that only users that are logged in and have not previously reviewed the selected movie can compose a new review.
                                 </li>
                                 <li>
-                                    Combined Docker containers with Github actions to allow for automatic Github pull
-                                    request deployments to the Heroku hosting service to optimize development efficiency
-                                    and hosting related bug identification.
+                                    Ensuring a user’s information remained private by integrating Auth routes and the Bcrypt hashing algorithm to obfuscate passwords, and ensure that only authenticated users can perform certain actions across the site.
                                 </li>
                             </ul>
                         </div>
                         <div class="col-sm-3">
-                            <p><strong>DATE:</strong> Sept. 2021</p>
-                            <p><strong>TITLE:</strong> Saucy-Score</p>
-                            <p><strong>TECHNOLOGIES:</strong> Python, JavaScript, React, Redux, Flask, Postgresql, HTML,
+                            <p><strong>DATE:</strong> July, 2021</p>
+                            <p><strong>TITLE:</strong> Horror-Host</p>
+                            <p><strong>TECHNOLOGIES:</strong> Python, JavaScript, ExpressJS, Sequelize ORM, PugJS, Postgresql, HTML,
                                 CSS</p>
-                            <p class="mt30"><a href="https://saucy-score.herokuapp.com/" target="_blank"
+                            <p class="mt30"><a href="https://horrorhost.herokuapp.com/" target="_blank"
                                     class="btn btn-primary btn-theme page-scroll">Live</a></p>
-                            <p class="mt30"><a href="https://github.com/VoodooJellyfish/saucy-score" target="_blank"
+                            <p class="mt30"><a href="https://github.com/amandahinton/film-macabre" target="_blank"
                                     class="btn btn-primary btn-theme page-scroll">Github</a></p>
                         </div>
                     </div>
