@@ -1,0 +1,41 @@
+.logo-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.li-item {
+  list-style: none;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img {
+  width: 110px;
+  height: 100px;
+}
+
+.logo-header {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#about-section {
+  padding-bottom: 20px;
+}
+
+.logo-label {
+  font-weight: bold;
+}
+
+#about-label {
+  font-size: 20px;
+  font-weight: bold;
+}
